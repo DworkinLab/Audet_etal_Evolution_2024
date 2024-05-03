@@ -2,6 +2,8 @@
 
 This repository includes all scripts and phenotypic data to reproduce the analyses associated with the manuscript by Tyler Audet et al. (2024) Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. Accepted.
 
+A static copy of this repository (frozen at time of acceptance of the paper) is available on [DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6t1g1jx6k).
+
 A [previous pre-print of the manuscript is available here](https://www.biorxiv.org/content/10.1101/2023.08.31.555745v2).
 
 In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/bioproject/1107500).
