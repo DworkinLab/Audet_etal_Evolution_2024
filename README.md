@@ -1,3 +1,19 @@
+# README
+
+This repository includes all scripts and phenotypic data to reproduce the analyses associated with the manuscript by Tyler Audet et al. (2024) Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. Accepted.
+
+A [previous pre-print of the manuscript is available here](https://www.biorxiv.org/content/10.1101/2023.08.31.555745v2).
+
+In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/bioproject/1107500).
+
+
+## analysis
+
+For the phenotypic analyses and experiments, raw data is in the data folder, consisting of two files,`JK_Feb2020_legsThorax_SSD.csv` for the morphological data and `sex_ratio_cross.csv` for adults sex ratio. The associated scripts are in the `Rscripts` folder, specifically the `Phenotype_analysis.Rmd` for the analysis of morphological changes and the `SexRatio_F1_F2.Rmd` for the analysis of changes in sex ratios.
+
+For the genomic analysis, below we summarize the major steps of the analysis in this readme, with the associated scripts we used to run the analyses (on the cluster we used) in `bash_scripts` and `Rscripts`. 
+
+For the simulations using SLiM, the scripts can be found in the folder `simulationScripts`, with the `SeperateSexesBurnIn.slim` script used to produce the founding population that was sampled from (run only once), and the script `SeperateSexesOutputSamples_Run_OnePop_local.slim` to generate single populations (run 100 times) to simulate the LH_M and artificial selection undergoing the demographic changes for these populations, used to assess patterns of between sex FST.
 
 # 1) Trimming was done with bbduk (bbmap v. 38.86)
 ```
