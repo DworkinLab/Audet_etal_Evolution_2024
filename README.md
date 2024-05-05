@@ -6,7 +6,7 @@ A static copy of this repository (frozen at time of acceptance of the paper) is 
 
 A [previous pre-print of the manuscript is available here](https://www.biorxiv.org/content/10.1101/2023.08.31.555745v2).
 
-In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/bioproject/1107500).
+In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/sra/PRJNA1107500).
 
 
 ## analysis
