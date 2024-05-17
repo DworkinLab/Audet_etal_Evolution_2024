@@ -1,7 +1,7 @@
 # README
 
 This repository includes all scripts and phenotypic data to reproduce the analyses associated with the manuscript:
-Audet T, Krol J, Pelletier K, Stewart AD, Dworkin I. Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. 2024 May 9:qpae071. doi: 10.1093/evolut/qpae071. Epub ahead of print. PMID: 38720526.
+Audet T, Krol J, Pelletier K, Stewart AD, Dworkin I. Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. 2024 May 9:qpae071. [doi: 10.1093/evolut/qpae071](https://doi.org/10.1093/evolut/qpae071). PMID: 38720526.
 
 
 A static copy of this repository (frozen at time of acceptance of the paper) is available on [DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6t1g1jx6k).
