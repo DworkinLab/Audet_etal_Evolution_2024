@@ -1,17 +1,20 @@
 # README
 
-This repository includes all scripts and phenotypic data to reproduce the analyses associated with the manuscript by Tyler Audet et al. (2024) Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. Accepted.
+This repository includes all scripts and phenotypic data to reproduce the analyses associated with the manuscript:
+Audet T, Krol J, Pelletier K, Stewart AD, Dworkin I. Sexually discordant selection is associated with trait specific morphological changes and a complex genomic response. Evolution. 2024 May 9:qpae071. doi: 10.1093/evolut/qpae071. Epub ahead of print. PMID: 38720526.
+
 
 A static copy of this repository (frozen at time of acceptance of the paper) is available on [DRYAD](https://datadryad.org/stash/dataset/doi:10.5061/dryad.6t1g1jx6k).
 
 A [previous pre-print of the manuscript is available here](https://www.biorxiv.org/content/10.1101/2023.08.31.555745v2).
 
-In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/sra/PRJNA1107500).
+In addition to the phenotypic data, raw sequence data is available through [NCBI SRA, BioProject PRJNA1107500](https://www.ncbi.nlm.nih.gov/sra/PRJNA1107500). This includes the sequence generated for Audet et al. as well as for the raw sequences from:
+Turner TL, Stewart AD, Fields AT, Rice WR, Tarone AM. Population-based resequencing of experimentally evolved populations reveals the genetic basis of body size variation in Drosophila melanogaster. PLoS Genet. 2011 Mar;7(3):e1001336. doi: 10.1371/journal.pgen.1001336. Epub 2011 Mar 17. PMID: 21437274; PMCID: PMC3060078.
 
 
 ## analysis
 
-For the phenotypic analyses and experiments, raw data is in the data folder, consisting of two files,`JK_Feb2020_legsThorax_SSD.csv` for the morphological data and `sex_ratio_cross.csv` for adults sex ratio. The associated scripts are in the `Rscripts` folder, specifically the `Phenotype_analysis.Rmd` for the analysis of morphological changes and the `SexRatio_F1_F2.Rmd` for the analysis of changes in sex ratios.
+For the phenotypic analyses and experiments, raw data is in the data folder, consisting of two files,`JK_Feb2020_legsThorax_SSD.csv` for the morphological data and `sex_ratio_cross.csv` for adults sex ratio. The associated scripts are in the `Rscripts` folder, specifically the `Phenotype_analysis.Rmd` for the analysis of morphological changes and the `SexRatio_F1_F2.Rmd` for the analysis of changes in sex ratios. Please see the file `MetaData.csv` for meaning of variable names in the raw data files.
 
 For the genomic analysis, below we summarize the major steps of the analysis in this readme, with the associated scripts we used to run the analyses (on the cluster we used) in `bash_scripts` and `Rscripts`. 
 
@@ -214,4 +217,5 @@ bedtools intersect -header -u -a SNPs.vcf -b ./top5percent_fst.bed ./significant
 ````
 
 # Finally, model SNPs in each sites_of_interest file with R scripts
+Please see the readme file in the `./Rscripts` folder for explanations of each R script.
 

@@ -1,0 +1,31 @@
+﻿For JK_Feb2020_legsThorax_SSD.csv,
+,
+Column_Identifier,
+image_name,"Image named during microscopy, contains all metadata as well"
+Imager_id,initials of person who took images
+generation,generation of artificial selection for phenotyping (367 for this study)
+sex,biological sex of individual
+selection,artificial selection treatment
+replicate,replicate lineage
+sampling,sampling during artificial selection
+trait,Trait measured
+individual_id,unique individual identifier
+length,length in mm
+repeat_measure,identifier for replicate measures to assess measurement error
+,
+traits,
+L-F,Femur on prothoracic leg
+L-Ti,Tibia on prothoracic leg
+L-Ta,basi-tarsus on prothoracic leg
+T,Thorax
+,
+,
+For sex_ratio_cross.csv,
+,
+Sire,Lineage of Sire
+Dam,Lineage of Dam
+Replicate,replicate parent within lineage
+F1_Males,count of males in F1
+F1_Females,count of females in F1
+F2_Males,count of males in F2
+F2_Females,count of females in F2
